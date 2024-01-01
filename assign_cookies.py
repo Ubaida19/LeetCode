@@ -20,6 +20,7 @@ def find_content_children(greed: List[int], cookies: List[int]) -> int:
 			count += 1
 			i += 1
 		j += 1
+	return count
 
 
 if __name__ == '__main__':
